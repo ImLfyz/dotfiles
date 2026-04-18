@@ -1,13 +1,10 @@
-# Nvim
+# Rofi
 
 ## Start
 ```
 cd ~/dotfiles
-stow -t ~ nvim
+stow -t ~ rofi
 ```
 
 ## Preview
 > Maybe later
-
-## Requirements
-Nerd font

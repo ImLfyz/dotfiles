@@ -20,5 +20,7 @@ git clone https://github.com/ImLfyz/dotfiles
 ```
 
 3. Use that you want:
-  - ["Waybar"](https://github.com/ImLfyz/dotfiles/tree/main/waybar)
-  - ["Nvim"](https://github.com/ImLfyz/dotfiles/tree/main/nvim)
+  - [Waybar](https://github.com/ImLfyz/dotfiles/tree/main/waybar)
+  - [Nvim](https://github.com/ImLfyz/dotfiles/tree/main/nvim)
+  - [Hyprland](https://github.com/ImLfyz/dotfiles/tree/main/hypr)
+  - [Rofi](https://github.com/ImLfyz/dotfiles/tree/main/rofi)

@@ -1,8 +1,10 @@
 # Hyprland
 
-## Download
+## Start
 ```
-rm -rf ~/.config/hypr
-git clone https://gitlab.com/configslfyz/hyprland ~/.config/hypr
+cd ~/dotfiles
+stow -t ~ hypr
 ```
-# Done!
+
+## Preview
+> Maybe later
