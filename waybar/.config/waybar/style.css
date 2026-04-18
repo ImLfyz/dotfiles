@@ -1,0 +1,249 @@
+* {
+    all: unset;
+    font-family: "Fira Sans Semibold", "Font Awesome 6 Free", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+}
+
+window#waybar {
+    background: #1d1f23;
+    margin: 10px 10px 10px 10px;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+#workspaces {
+    border-radius: 10px;
+}
+
+#workspaces button {
+    color: white;
+    font-size: 16px;
+    padding: 4px 10px 4px 20px;
+    margin: 4px;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+#workspaces button:hover {
+    background: #00c0cc;
+    padding: 4px 24px 4px 16px;
+    margin: 4px;
+    box-shadow: 
+        inset -4px -2px 5px 3px #00e6f4,
+        inset -4px -2px 1px 3px #008891;
+}
+
+#workspaces button.active {
+    background: #009fa9;
+    color: #bdbdbd;
+    padding: 6px 16px 2px 24px;
+    margin: 4px;
+    box-shadow: inset 4px 2px 1px 3px #008891;
+}
+
+window#waybar.empty #window {
+    background: none;
+    border: none;
+}
+
+#clock {
+    color: white;
+    font-size: 16px;
+    padding-right: 10px;
+}
+
+#window {
+    color: white;
+    font-size: 16px;
+} 
+
+#tray {
+    color: white;
+    font-size: 16px;
+    padding-right: 5px;
+} 
+
+#network {
+    color: rgb(107, 255, 119);
+    font-size: 16px;
+    margin: 4px;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+} 
+
+#network:hover {
+    background: #00c0cc;
+    padding: 0px 15px 0px 10px;
+    border-radius: 12px;
+    margin: 4px;
+    box-shadow: 
+        inset 3px 1px 5px 3px #00e6f4,
+        inset -4px -2px 1px 3px #008891;
+}
+
+#network.disconnected, #network.disabled {
+    color: rgb(255, 75, 75);
+    font-size: 16px;
+    padding-right: 5px;
+}
+
+#custom-power {
+    color: white;
+    font-size: 16px;
+    padding-left: 10px;
+    margin: 4px;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+#custom-power:hover {
+    background: #00c0cc;
+    padding: 0px 10px 0px 6px;
+    border-radius: 12px;
+    margin: 4px;
+    box-shadow: 
+        inset 3px 1px 5px 3px #00e6f4,
+        inset -4px -2px 1px 3px #008891;
+}
+
+#cpu {
+    color: white;
+    font-size: 16px;
+    padding-right: 5px;
+}
+
+#custom-bluetooth:hover {
+    background: #00c0cc;
+    padding: 0px 12px 0px 10px;
+    border-radius: 12px;
+    margin: 4px;
+    box-shadow: 
+        inset 3px 1px 5px 3px #00e6f4,
+        inset -4px -2px 1px 3px #008891;
+}
+
+#custom-bluetooth.disconnected {
+    color: rgb(255, 0, 0);
+    font-size: 16px;
+    margin: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+#custom-bluetooth.connected {
+    color: rgb(107, 255, 119);
+    margin: 4px;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+#custom-bluetooth.high {
+    color: rgb(107, 255, 119);
+    font-size: 16px;
+    margin: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+#custom-bluetooth.low {
+    color: rgb(255, 0, 0);
+    font-size: 16px;
+    margin: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+#custom-separator {
+    color: #808080;
+    padding: 0px 5px 5px 0px;
+}
+
+#custom-wallpaper {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 4px;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+#custom-wallpaper:hover {
+    background: #00c0cc;
+    padding: 0px 15px 0px 10px;
+    border-radius: 12px;
+    margin: 4px;
+    box-shadow: 
+        inset 3px 1px 5px 3px #00e6f4,
+        inset -4px -2px 1px 3px #008891;
+}
+
+#custom-prev {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 4px;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+#custom-prev:hover {
+    background: #00c0cc;
+    padding: 0px 15px 0px 10px;
+    border-radius: 12px;
+    margin: 4px;
+    box-shadow: 
+        inset 3px 1px 5px 3px #00e6f4,
+        inset -4px -2px 1px 3px #008891;
+}
+
+#custom-next {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 4px;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+#custom-next:hover {
+    background: #00c0cc;
+    padding: 0px 15px 0px 10px;
+    border-radius: 12px;
+    margin: 4px;
+    box-shadow: 
+        inset 3px 1px 5px 3px #00e6f4,
+        inset -4px -2px 1px 3px #008891;
+}
+
+#mpris {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 4px;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+#mpris:hover {
+    background: #00c0cc;
+    padding: 0px 15px 0px 10px;
+    border-radius: 12px;
+    margin: 4px;
+    box-shadow: 
+        inset 3px 1px 5px 3px #00e6f4,
+        inset -4px -2px 1px 3px #008891;
+}
+
+.modules-right {
+    background: #00bbc7;
+    border-radius: 12px;
+    padding-left: 12px;
+    box-shadow: inset 0px 0px 0px 4px #1d1f23;
+}
+
+.modules-left {
+    background: #00bbc7;
+    border-radius: 12px;
+    padding-right: 12px;
+    box-shadow: inset 0px 0px 0px 4px #1d1f23;
+}
+
+.modules-center {
+    background: #00bbc7;
+    border-radius: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
+    box-shadow: inset 0px 0px 0px 4px #1d1f23;
+}
