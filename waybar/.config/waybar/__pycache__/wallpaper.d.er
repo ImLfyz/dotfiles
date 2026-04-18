@@ -1,0 +1,39 @@
+##[pylyzer] failed /home/Lfyz/Data/dotfiles/waybar/.config/waybar/wallpaper.py 1776529786 4752
+.posix: Never
+
+.os: Never
+
+.subprocess: Never
+
+.___v_desugar_1: Never
+.Path: Never
+.gi = pyimport "__init__"
+.__init__ = pyimport "__init__"
+
+
+.___v_desugar_2 = pyimport "__init__"
+
+.Gtk: Never
+.Gdk: Never
+.GLib: Never
+.GdkPixbuf: Never
+.WALLPAPER_DIR: Never
+.CACHE_DIR: Never
+
+.WallpaperSelector: ClassType
+.WallpaperSelector <: Never
+.WallpaperSelector.__call__: () -> wallpaper.WallpaperSelector
+.WallpaperSelector.get_wallpapers: (self: wallpaper.WallpaperSelector) -> global::List!(Never, _: Nat)
+.WallpaperSelector.create_thumbnail: |Type_79842: Type, Type_79752 <: Structural({.stem = Type_79842})|(self: wallpaper.WallpaperSelector, wallpaper_path: Type_79752) -> Str
+.WallpaperSelector.on_wallpaper_clicked: (self: wallpaper.WallpaperSelector, button: Obj, wallpaper_path: Obj) -> NoneType
+.WallpaperSelector.on_key_press: |Type_79759 <: Structural({.keyval = E}), E: Type|(self: wallpaper.WallpaperSelector, widget: Obj, event: Type_79759) -> NoneType
+.WallpaperSelector.load_css: (self: wallpaper.WallpaperSelector) -> NoneType
+
+
+wallpaper = pyimport "wallpaper"
+.win: .WallpaperSelector
+
+
+
+
+
